@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AquaSight - Insights</title>
+  <link rel="stylesheet" href="insights.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">AquaSight</div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="insights.html" class="active">Insights</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="index.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <h1>Personalized Insights</h1>
+    <div class="cards-container">
+      
+      <div class="card">
+        <h2>🚨 Leak Alerts</h2>
+        <p>Usage spike detected on Monday — possible leak in bathroom tap</p>
+      </div>
+      
+      <div class="card">
+        <h2>📊 Usage Patterns</h2>
+        <p>You use most water in the mornings; consider shorter showers</p>
+      </div>
+      
+      <div class="card forecast-card">
+        <h2>🔮 Future Forecast</h2>
+        <p id="forecast-text">Predicted water usage for the month: 3,500 liters</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 70%;"></div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2>💡 Tips & Tricks</h2>
+        <ul>
+          <li>Turn off the tap while brushing → save 6 liters/day</li>
+          <li>Install faucet aerators → reduce flow by 30%</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <script src="insights.js"></script>
+</body>
+</html>
