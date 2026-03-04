@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AquaSight - Tips</title>
+  <link rel="stylesheet" href="tips.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">AquaSight</div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="tips.html" class="active">Tips</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="index.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <h1>Tips & Learning Resources</h1>
+
+    <!-- Quiz Section -->
+    <section class="quiz-card">
+      <h2>Which tip suits you?</h2>
+      <p>Do you shower more than 10 minutes?</p>
+      <div class="quiz-options">
+        <button data-recommendation="Shorten showers to 5-7 minutes">Yes</button>
+        <button data-recommendation="Keep showers under 10 minutes">No</button>
+      </div>
+      <p id="quiz-result"></p>
+    </section>
+
+    <!-- Tips List -->
+    <section class="tips-list">
+      <div class="tip-card">
+        <p>🚰 Turn off the tap while brushing teeth → Save 6 liters/day</p>
+      </div>
+      <div class="tip-card">
+        <p>💧 Install faucet aerators → Reduce flow by 30%</p>
+      </div>
+      <div class="tip-card">
+        <p>🌧️ Collect rainwater for gardening → Save water from mains</p>
+      </div>
+      <div class="tip-card">
+        <p>🧺 Run full loads in washing machines → Efficient water usage</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="tips.js"></script>
+</body>
+</html>
